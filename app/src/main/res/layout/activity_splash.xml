@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.neonclock.nightclock.smartclock.digitalclock.Splash">
+    <com.google.android.material.button.MaterialButton
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/get_started"
+        android:layout_marginStart="@dimen/_20sdp"
+        android:layout_marginEnd="@dimen/_20sdp"
+        android:layout_marginBottom="@dimen/_60sdp"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_50sdp"
+        android:textAllCaps="false"
+        android:fontFamily="@font/montserrat_semi_bold"
+        android:textSize="@dimen/_16sdp"
+        app:cornerRadius="@dimen/_10sdp"
+        android:elevation="@dimen/_20sdp"
+        android:text="Get Started"/>
+
+</RelativeLayout>
